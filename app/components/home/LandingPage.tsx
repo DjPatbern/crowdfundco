@@ -4,6 +4,8 @@ import { Header } from "../commons/Header";
 import { Hero } from "./fragments/Hero";
 import Partners from "./fragments/Partners";
 import WhatWeOffer from "./fragments/WhatWeOffer";
+import InvestSection from "./fragments/InvestSection";
+import BuildSection from "./fragments/BuildSection";
 
 const LandingPage = () => {
   return (
@@ -12,6 +14,8 @@ const LandingPage = () => {
       <Hero />
       <Partners />
       <WhatWeOffer />
+      <InvestSection />
+      <BuildSection />
     </div>
   );
 };
