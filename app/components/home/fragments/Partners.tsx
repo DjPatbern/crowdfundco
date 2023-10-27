@@ -15,12 +15,12 @@ const Partners = () => {
       <p className="text-[#191919] text-center text-2xl font-medium tracking-[0.012rem]">
         Brands we partner with
       </p>
-      <div className="flex items-center justify-center gap-20">
+      <div className="md:flex items-center justify-center gap-20">
         <Image
           width={117}
           height={117}
           data-aos="fade-up"
-          className=""
+          className=" md:mb-0 mb-7 md:m-0 m-auto"
           src="/images/fcmb.png"
           alt="fcmb logo"
         />
@@ -28,7 +28,7 @@ const Partners = () => {
           width={396}
           height={58}
           data-aos="zoom-in-down"
-          className=""
+          className=" md:mb-0 mb-7 md:m-0 m-auto"
           src="/images/path.png"
           alt="path logo"
         />
@@ -36,7 +36,7 @@ const Partners = () => {
           width={117}
           height={74}
           data-aos="fade-down"
-          className=""
+          className=" md:mb-0 mb-7 md:m-0 m-auto"
           src="/images/fccpc.png"
           alt="fccpc logo"
         />

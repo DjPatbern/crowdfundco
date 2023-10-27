@@ -16,7 +16,7 @@ export const Header = () => {
           />
         </Link>
       </div>
-      <div className="flex items-center gap-2">
+      <div className="hidden md:flex items-center gap-2">
         <Link href="/" className="flex p-2 justify-center items-center gap-1">
           <p className="text-[#222] tracking-[0.008rem]">About us</p>
         </Link>
