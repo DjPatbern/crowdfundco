@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Header } from "../commons/Header";
+import { Header, Footer } from "../commons/Header";
 import { Hero } from "./fragments/Hero";
 import Partners from "./fragments/Partners";
 import WhatWeOffer from "./fragments/WhatWeOffer";
@@ -16,6 +16,7 @@ const LandingPage = () => {
       <WhatWeOffer />
       <InvestSection />
       <BuildSection />
+      <Footer/>
     </div>
   );
 };
