@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Offer } from "@/app/stores/Data";
+import Link from "next/link";
 
 const WhatWeOffer = () => {
   useEffect(() => {
@@ -33,8 +34,8 @@ const WhatWeOffer = () => {
                   {eachOffer?.des}
                 </p>
               </div>
-              <div className="py-2 flex justify-center items-center gap-2">
-                <p className="text-[#1E1E1E] tracking-[0.008rem]">See More</p>
+              <Link href="https://wa.link/mv0g1e" target="_blank" className="py-2 flex justify-center items-center gap-2">
+                <p className="text-[#1E1E1E] tracking-[0.008rem]">Reach Us</p>
                 <Image
                   className=""
                   src="/images/seemore.png"
@@ -43,7 +44,7 @@ const WhatWeOffer = () => {
                   height={24}
                   priority
                 />
-              </div>
+              </Link>
             </div>
           </div>
         ))}

@@ -10,18 +10,20 @@ const InvestSection = () => {
           height={496}
           data-aos="zoom-in"
           className=" md:mb-0 mb-7 md:m-0 m-auto rounded-lg"
-          src="/images/padlock.png"
+          src="/images/about.PNG"
           alt="Invest"
         />
         <div className="flex flex-col items-start gap-6 ">
           <p className="text-[#191919] md:text-5xl text-2xl font-bold">
-            Invest the easy way with confidence
+           Our Basic Services we offer include
           </p>
           <p className="text-[#242424] text-xl md:text-2xl tracking-[0.03rem]">
-            With CrowdfundCo, Investment procedures are easy - whether you just
-            started or you are an experienced investor. We also offer a
-            regulated environment where investments are transparent and
-            protected
+          ✔ We offer photocopying services.<br />
+            ✔ We do NIMC registration.<br />
+            ✔ We do graphic designs and instant passport.<br />
+            ✔ We do import and export services.<br />
+            ✔ We do online registrations of all kinds.<br />
+            ✔ We print plastic ID Cards.<br />
           </p>
         </div>
       </div>

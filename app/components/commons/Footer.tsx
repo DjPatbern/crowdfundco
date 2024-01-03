@@ -1,77 +1,81 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
+import { HiMailOpen } from "react-icons/hi";
+import { MdAddIcCall } from "react-icons/md";
+import { HiLocationMarker } from "react-icons/hi";
 
-export const Footer = () => {
-    return (
-        <div className="flex justify-between items-center  w-full py-5 4xl:py-[2.5rem] 2xl:py-[1.5rem] lg:px-[7.5rem] lg:py-8 px-4 4xl:px-[7.5rem] 2xl:px-[6.5rem]">
+const Footer = () => {
+  return (
+    <footer className="w-full bg-[#1E0C2B] text-custom-white  py-5 4xl:py-[2.5rem] 2xl:py-[1.5rem] lg:px-[7.5rem] lg:pt-[4.5rem] px-4 4xl:px-[7.5rem] 2xl:px-[6.5rem]">
+        <div className="lg:flex justify-between items-start lg:gap-0 sm:gap-14 gap-[181.5px] border-b border-ts-white pb-8">
+          <div className="flex justify-center flex-col items-center md:items-start gap-5 ">
+            <Link href="/">
+              <Image
+                src="/images/logo.PNG"
+                alt="Vines"
+                width={183}
+                height={48}
+                priority
+              />
+            </Link>
             <div>
-                <Link href="/" className="flex items-start md:w-[240px] md:h-[36] w-[150px]">
-                    <Image
-                        width={240}
-                        height={36}
-                        className=""
-                        src="/images/logo.png"
-                        alt="Crowd Fund"
-                    />
-                </Link>
+            <div className='flex flex-col gap-3 items-center md:items-start'>
+          <p className='flex gap-2 items-center'><HiLocationMarker /> <span>NO 6, Mustapha Ojora<br /> 
+          Mobile Road, Ilepo Stop. Shop NO 3. Lagos</span></p>
+            <p className='flex gap-2 items-center'><HiMailOpen /> <span>pcfidomain@gmail.com</span></p> 
+         <p className='flex gap-2 items-center'><MdAddIcCall /> <span>+243-708-978-7675, +243-913-000-816</span></p>
+            </div>
+            </div>
+          </div>
 
-                <p>CrowdfundCo is a dynamic online pltform that brings together a community of investors and project owners for the purpose of crowdfundung.</p>
-         <div><Image/> <div><p>Email</p><p>contact@crowdfundco.com</p></div></div>
-         <div><Image/> <div><p>Call Us</p><p>+234 (70) 404 064 46</p></div></div>
-            </div>
-            <div className=" flex flex-col gap-2">
-                <p>Pages</p>
-                <Link href="/" className="flex p-2 justify-center items-center gap-1">
-                    <p className="text-[#222] tracking-[0.008rem]">About us</p>
-                </Link>
-                <Link href="/" className="flex p-2 justify-center items-center gap-1">
-                    <p className="text-[#222] tracking-[0.008rem]">Loans</p>
-                </Link>
-                <Link href="/" className="flex p-2 justify-center items-center gap-1">
-                    <p className="text-[#222] tracking-[0.008rem]">Real Estates</p>
-                </Link>
-                <Link href="/" className="flex p-2 justify-center items-center gap-1">
-                    <p className="text-[#222] tracking-[0.008rem]">Other Ventures</p>
-                </Link>
-                <Link href="/" className="flex p-2 justify-center items-center gap-1">
-                    <p className="text-[#222] tracking-[0.008rem]">Security</p>
-                </Link>
-                <Link href="/" className="flex p-2 justify-center items-center gap-1">
-                    <p className="text-[#222] tracking-[0.008rem]">Support</p>
-                </Link>
-            </div>
-            <div className=" flex flex-col gap-6">
-                <p>Utility</p>
-                <div className=" flex flex-col gap-6">
-                <Link href="/" className="flex p-2 justify-center items-center gap-1">
-                    <p className="text-[#222] tracking-[0.008rem]">Privacy Policy</p>
-                </Link>
-                <Link href="/" className="flex p-2 justify-center items-center gap-1">
-                    <p className="text-[#222] tracking-[0.008rem]">Terms of Use</p>
-                </Link>
-                <Link href="/" className="flex p-2 justify-center items-center gap-1">
-                    <p className="text-[#222] tracking-[0.008rem]">Legal</p>
-                </Link>
-                <Link href="/" className="flex p-2 justify-center items-center gap-1">
-                    <p className="text-[#222] tracking-[0.008rem]">Media Center</p>
-                </Link>
-                <Link href="/" className="flex p-2 justify-center items-center gap-1">
-                    <p className="text-[#222] tracking-[0.008rem]">Careers</p>
-                </Link>
-                <Link href="/" className="flex p-2 justify-center items-center gap-1">
-                    <p className="text-[#222] tracking-[0.008rem]">Affiliate Programs</p>
-                </Link>
-                </div>
-            </div>
-            <div className="flex items-center justify-center gap-2 md:gap-4">
-                <Link href="/">
-                    <p className="  text-[#222] tracking-[0.008rem]">Subscribe</p>
-                </Link>
-                <div>
-                    <p>Social links</p>
-                </div>
-            </div>
+          <div className="flex  mt-6 mb-10  items-center m-auto lg:m-0 justify-evenly w-28  gap-6 lg:gap-6 lg:w-52  2xl:gap-8">
+            <Image
+              className=" object-contain cursor-pointer h-[48px]  2xl:w-14 2xl:h-16 "
+              src="/images/Frame29723.svg"
+              alt="Vines"
+              width={40}
+              height={48}
+              priority
+            />
+            <Image
+              className=" object-contain cursor-pointer h-[48px]  2xl:w-14 2xl:h-16 "
+              src="/images/insta.svg"
+              alt="Vines"
+              width={40}
+              height={48}
+              priority
+            />
+            <Image
+              className=" object-contain cursor-pointer h-[48px]  2xl:w-14 2xl:h-16 "
+              src="/images/twitter.svg"
+              alt="Vines"
+              width={40}
+              height={48}
+              priority
+            />
+           
+          </div>
+          <div className="flex justify-center items-start">
+            <Link href="https://wa.link/mv0g1e">
+              <Image
+                src="/images/Whatsapporder.gif"
+                alt="whatsapp"
+                width={183}
+                height={48}
+                priority
+              />
+            </Link>
+          </div>
         </div>
-    );
+        <div className="  2xl:w-full md:w-full   sm-foot md:m-0 m-auto items-start md:flex justify-between pt-5 lg:text-left ">
+          
+          <div className="lg:text-lg  text-base m-auto lg:font-medium font-normal 2xl:w-full leading-8 tracking-[-0.252px]  2xl:text-[18px] 2xl:leading-[2rem]  md:text-left text-center">
+          © 2024 Vines Computers & Phones
+          </div>
+         
+        </div>
+    </footer>
+  );
 };
+
+export default Footer;

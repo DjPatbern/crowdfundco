@@ -1,32 +1,62 @@
 export const Offer = [
   {
     id: 1,
-    name: "Loan Funding",
-    des: "We offer opportunities to invest in loans via regulated financial instruments. Also, loans are available for users to access as borrowers after due credit checks.",
+    name: "Laptop & Phone",
+    des: "We offer sells of all types of modern laptops and phones, we deal on products like Apple, Samsung, Tecno, Infinix, Hp, Dell etc. This products are sold at affordable rates and can be gotten over installmental payment.",
   },
   {
     id: 2,
-    name: "Real Estate Investment",
-    des: "CrowdfundCo also offers a dedicated section for real estate investment. Users can explore different properties, view property details, and participate in crowdfunding campaigns to collectively invest in real estate assets.",
+    name: "Accessories",
+    des: "Here at Vines Computers and Phones, you can get your phone accessories like earphones, airpods, chargers, hard disks, flash drives, memory cards, batteries, USB cords, porches, power banks and more at affordable rate.",
   },
   {
     id: 3,
-    name: "Transparent Ownership",
-    des: "We utilize blockchain technology to provide transparent ownership records. Participants receive digital tokens representing their ownership share, ensuring transparency and security in collective ownership.",
+    name: "Online Registrations",
+    des: "Vines Computers and Phones as well offer online regristration on services like Nimc, Police, Jamb, Post UTME, Immigration, NYSC, Navy, Airforce, Civil Defence, and many more at affordable rate",
   },
   {
     id: 4,
-    name: "Payment Management",
-    des: "CrowdfundCo handles payments and contributions securely. Users can make payments through a variety of methods, including credit cards, bank transfers, and cryptocurrency",
+    name: "Graphics & Photocopy",
+    des: "Vines Computers and Phones as well offer online regristration on services like Nimc, Police, Jamb, Post UTME, Immigration, NYSC, Navy, Airforce, Civil Defence, and many more at affordable rate",
   },
   {
     id: 5,
-    name: "Community Engagement",
-    des: "The platform fosters a sense of community by allowing users to discuss, vote, and decide on potential crowdfunding projects. It also offers social features for users to interact and share their investment experiences.",
+    name: "General Services",
+    des: "Vines Computers and Phones as well offer online regristration on services like Nimc, Police, Jamb, Post UTME, Immigration, NYSC, Navy, Airforce, Civil Defence, and many more at affordable rate",
   },
   {
     id: 6,
-    name: "Asset Management",
-    des: "For real estate investments, CrowdfundCo provides asset management tools to monitor property performance, rental income, and property appreciation. Investors can receive regular updates and financial reports.",
+    name: "Import & Export",
+    des: "Vines Computers and Phones as well offer online regristration on services like Nimc, Police, Jamb, Post UTME, Immigration, NYSC, Navy, Airforce, Civil Defence, and many more at affordable rate",
+  },
+];
+export const FaqsData = [
+  {
+    id: 1,
+    question: "Does Vines have a support center?",
+    answer:
+      "Yes, Vines is always active to support her customer via this number +234-12345678",
+    show: false,
+  },
+  {
+    id: 2,
+    question: "What products do Vines sell?",
+    answer:
+      "Vines sell laptop, phone and it's accessories of good quality and modernization",
+    show: false,
+  },
+  {
+    id: 3,
+    question: "Does Vines offer online sells?",
+    answer:
+      "Yes, you can order via Whatsapp and we deliver nationwide using reputable logistics compang",
+    show: false,
+  },
+  {
+    id: 4,
+    question: "Does Vines provide warranty and refund?",
+    answer:
+      "Yes, we make refund when neccessary and this can only be done to our overtime customers",
+    show: false,
   },
 ];
