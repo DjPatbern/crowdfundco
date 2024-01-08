@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <div className="flex justify-between items-center  w-full">
       <div>
-        <Link href="/" className="flex items-start md:w-[240px] md:h-[36] w-[150px]">
+        <Link href="/" className="flex items-start md:w-[240px] md:h-[36] w-[120px]">
           <Image
             width={240}
             height={36}
