@@ -21,7 +21,7 @@ export const Hero = () => {
             Get access to phones and laptops your from the comfort of your home <br /> and office.
           </p>
         </div>
-        <Link href="https://wa.link/mv0g1e" target="_blank"  className="bg-[#FBC23A] flex py-5 px-10 justify-center items-center rounded-lg">
+        <Link href="https://wa.link/hxcemc" target="_blank"  className="bg-[#FBC23A] flex py-5 px-10 justify-center items-center rounded-lg">
           <p className="text-custom-black text-xl font-semibold tracking-[0.01rem]">
             Get Started
           </p>

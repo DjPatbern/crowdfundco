@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="flex justify-center flex-col items-center md:items-start gap-5 ">
             <Link href="/">
               <Image
-                src="/images/logo.PNG"
+                src="/images/logoo.PNG"
                 alt="Vines"
                 width={183}
                 height={48}
@@ -20,7 +20,7 @@ const Footer = () => {
             </Link>
             <div>
             <div className='flex flex-col gap-3 items-center md:items-start'>
-          <p className='flex gap-2 items-center'><HiLocationMarker /> <span>NO 6, Mustapha Ojora<br /> 
+          <p className='flex gap-2 items-center'><HiLocationMarker /> <span className='text-center md:text-left'>NO 6, Mustapha Ojora<br /> 
           Mobile Road, Ilepo Stop. Shop NO 3. Lagos</span></p>
             <p className='flex gap-2 items-center'><HiMailOpen /> <span>pcfidomain@gmail.com</span></p> 
          <p className='flex gap-2 items-center'><MdAddIcCall /> <span>+243-708-978-7675, +243-913-000-816</span></p>
@@ -56,7 +56,7 @@ const Footer = () => {
            
           </div>
           <div className="flex justify-center items-start">
-            <Link href="https://wa.link/mv0g1e">
+            <Link href="https://wa.link/mv0g1e" target='_blank'>
               <Image
                 src="/images/Whatsapporder.gif"
                 alt="whatsapp"

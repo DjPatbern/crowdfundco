@@ -11,8 +11,8 @@ export const Header = () => {
             width={240}
             height={36}
             className=""
-            src="/images/logo.PNG"
-            alt="Crowd Fund"
+            src="/images/logoo.PNG"
+            alt="Vines Computers"
           />
         </Link>
       </div>
@@ -41,7 +41,7 @@ export const Header = () => {
         
         <div>
           <button className="gap-1 flex  py-[2px] md:py-5 px-[10px] md:px-10  2xl:px-12 2xl:py-3 md:text-lg md:flex items-center justify-center 2xl:gap-6  2xl:text-[1.688rem] 2xl:leading-[3rem] 2xl:tracking-[-0.02rem]  bg-[#FBC23A] rounded-lg">
-            <Link href="https://wa.link/mv0g1e" target="_blank" className="text-[#191919] font-semibold tracking-[0.008rem]">
+            <Link href="https://wa.link/hxcemc" target="_blank" className="text-[#191919] font-semibold tracking-[0.008rem]">
               Order Now
             </Link>{" "}
           </button>

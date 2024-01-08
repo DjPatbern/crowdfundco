@@ -22,7 +22,7 @@ const BuildSection = () => {
           height={496}
           data-aos="zoom-in"
           className=" md:mt-0 mt-7 md:m-0 m-auto rounded-lg"
-          src="/images/offer.PNG"
+          src="/images/offerr.PNG"
           alt="Invest"
         />
       </div>

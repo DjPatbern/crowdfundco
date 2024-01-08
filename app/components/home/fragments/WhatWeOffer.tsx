@@ -34,7 +34,7 @@ const WhatWeOffer = () => {
                   {eachOffer?.des}
                 </p>
               </div>
-              <Link href="https://wa.link/mv0g1e" target="_blank" className="py-2 flex justify-center items-center gap-2">
+              <Link href="https://wa.link/hxcemc" target="_blank" className="py-2 flex justify-center items-center gap-2">
                 <p className="text-[#1E1E1E] tracking-[0.008rem]">Reach Us</p>
                 <Image
                   className=""
